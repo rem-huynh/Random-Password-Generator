@@ -6,21 +6,35 @@
         <link rel="stylesheet" href="index.css">
         <title>Document</title>
     </head>
-    <body>
-        <div class="content-wrapper">
-            <<h1>Generate a <br> 
-                <span class="diff-color">random password</span>
-            </h1>
-            <p>Never use an insecure password again!</p>
-            <button id="passwordGen" onclick="generateBothPasswords()">Generate Passwords</button>
-            <script src="index.js"></script>
 
-            <div class="container">
-                <div class="box" id="passwordOne"></div>
-                <div class="box" id="passwordTwo"></div>
-            </div>
-        </div>
+    <body>
+        <!-- organize / layout html structure by elements -->
+        <main class="app">
+            <section class="card">
+
+                <h1>Generate a <br> 
+                    <!-- place text you want to highlight within span container-->
+                    <span class="diff-color">random password</span>
+                </h1>
+
+                <p>
+                Never use an insecure password again!
+                </p>
+
+                <button id="passwordGen"> 
+                    Generate Passwords
+                </button>
+
+                <!-- place password related content in it's own div element-->
+                <div class="password-container">
+                    <div class="box" id="passwordOne"></div>
+                    <div class="box" id="passwordTwo"></div>
+                </div>
+
+            </section>
+        </main>
         
+        <script src="index.js"></script>
 
     </body>
 </html>

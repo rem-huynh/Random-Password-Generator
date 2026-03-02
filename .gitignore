@@ -1,0 +1,70 @@
+# =====================
+# Operating System Files
+# =====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =====================
+# Code Editors & IDEs
+# =====================
+
+# VS Code
+.vscode/
+
+# JetBrains (WebStorm, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# =====================
+# Dependencies
+# =====================
+
+# npm / Node (if you ever add build tools or a dev server)
+node_modules/
+package-lock.json
+yarn.lock
+
+# =====================
+# Build Output
+# =====================
+
+# If you add a bundler like Vite, Webpack, or Parcel later
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# =====================
+# Environment & Secrets
+# =====================
+
+# Never commit API keys, passwords, or secrets
+.env
+.env.local
+.env.*.local
+
+# =====================
+# Logs & Misc
+# =====================
+
+*.log
+npm-debug.log*
