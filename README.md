@@ -1,7 +1,12 @@
 # Password Generator
 
+https://github.com/user-attachments/assets/2e561dd6-cb7a-466c-850a-c1d6770df446
+
 A simple password generator web application built using **HTML, CSS, and JavaScript**.  
 The app generates two secure random passwords at the click of a button using a predefined set of characters.
+
+
+
 
 This project was created to practice:
 - DOM manipulation
